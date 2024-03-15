@@ -9,7 +9,7 @@ RUN apt update && \
     --no-cache-dir \
     --root-user-action=ignore \
     cryptography===37.0.4 \
-    poetry===1.1.15 && \
+    poetry===1.5.1 && \
   poetry config virtualenvs.in-project true && \
   groupadd kodiak && \
   useradd --uid 1000 --gid kodiak kodiak && \
